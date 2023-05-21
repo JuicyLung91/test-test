@@ -1,4 +1,5 @@
-  document.addEventListener('DOMContentLoaded', function() {
+<script>  
+document.addEventListener('DOMContentLoaded', function() {
     var videoElements = document.getElementsByTagName('video');
     console.log(videoElements);
 
@@ -24,3 +25,4 @@
     // Listen for window resize events and update autoplay accordingly
     window.addEventListener('resize', handleAutoplay);
   });
+</script>
